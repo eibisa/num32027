@@ -613,7 +613,7 @@ function onSingleClickFeatures(evt) {
 				// 1. Extraemos los valores de la propiedad (feature) actual
 				var REFCAT = String(currentFeature.get('REFCAT') || '');
 
-		var CODMUNACTUAL = '32080'; 
+		var CODMUNACTUAL = '32027'; 
 		
 		// 2. Verificamos que al menos exista la referencia catastral para construir los enlaces
 		if (REFCAT && REFCAT.length >= 14) {
